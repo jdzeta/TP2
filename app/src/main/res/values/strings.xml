@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TP2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Options</string>
+    <string name="act_main_login_button">J\'ai déjà un compte</string>
+    <string name="act_main_register_button">Créer un compte</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="act_reg_text_name">Nom</string>
+    <string name="act_reg_text_email">Email</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="act_reg_submit_btn">Envoyer</string>
+    <string name="act_reg_pwd">Mot de passe</string>
+    <string name="title_activity_app">AppActivity</string>
+    <string name="act_login_text_title">Login</string>
+    <string name="action_logout">Deconnexion</string>
+    <string name="act_app_logout_title">Se déconnecter</string>
+    <string name="act_app_logout_text">Se déconnecter ?</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Annuler</string>
+    <string name="action_go_main">Main menu</string>
+</resources>

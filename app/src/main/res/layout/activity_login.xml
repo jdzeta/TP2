@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.ecolem_test.tp2.LoginActivity">
+
+    <TextView android:text="@string/act_login_text_title" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/act_login_text_title" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/act_login_email"
+        android:layout_below="@+id/act_login_text_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:hint="Email" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/act_login_pwd"
+        android:layout_below="@+id/act_login_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:hint="Mot de passe" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/act_reg_submit_btn"
+        android:id="@+id/act_login_submit"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
